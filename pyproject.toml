@@ -8,6 +8,7 @@ authors = ["vladlen dazhboggg@mail.ru"]
 python = "^3.11"
 flask = "^2.0"
 gunicorn = "^20.1.0"
+django = "^4.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.0"
