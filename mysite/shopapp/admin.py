@@ -7,7 +7,7 @@ from django.urls import path
 from .common import save_csv_products
 from .models import Product, Order, ProductImage
 from .admin_mixins import ExportAsCSVMixin
-from .forms import CSVImportForm
+
 
 
 class OrderInline(admin.TabularInline):
